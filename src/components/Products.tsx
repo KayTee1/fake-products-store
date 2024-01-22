@@ -26,7 +26,8 @@ const Products = () => {
         lg={3}
         md={2}
         xs={1}
-        className="g-3">
+        className="g-3"
+        id="product-list">
         {productsData.map((product: ProductProps) => (
           <Col>
             <ProductCard
